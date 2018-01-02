@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>calculatrice</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <h1>calculette</h1>
+        <p><iframe src="http://www.blague.info/blagues-du-jour/blagues.php?f=FFFFFF&c=000000&t=3&p=Verdana, Arial, sans-serif&" width="100%" height="100%" border="0" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="yes"></iframe><br><div align="center"><a href="http://www.blague.info" title="blague.info : les meilleurs blagues" style="{color:FF7F50; text-decoration:none; font-weight: normal; font-size:10px ; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;}">La blague du jour gratuite par <b>Blague.info</b></a></div></p>
+    <table class="calculatrice" id="calc">
+
+
+        <tr>
+            <td colspan="4" class="calc_td_resultat">
+<<<<<<< HEAD
+                <input type="text" readonly="readonly" name="calc_resultat" id="calc_resultat" class="calc_resultat1" value="" onkeydown="javascript:key_detect_calc('calc',event);" />
+=======
+                <input type="text" readonly="readonly" name="calc_resultat" 
+                id="calc_resultat" class="calc_resultat1" value=""
+                onkeydown="javascript:key_detect_calc('calc',event);" />
+>>>>>>> master
+            </td>
+        </tr>
+        <tr>
+            <td class="calc_td_btn">
+                <input type="button" id="sept" class="calc_btn" value="7" onclick="camelCase('sept')"/>
+            </td>
+            <td class="calc_td_btn">
+                <input type="button" id="huit" class="calc_btn" value="8" onclick="camelCase('huit')" />
+            </td>
+            <td class="calc_td_btn">
+<<<<<<< HEAD
+                <input type="button" id="neuf" class="calc_btn" value="9"
+                onclick="camelCase('neuf')"  />
+=======
+                <input type="button" class="calc_btn" value="9" onclick="camelCase('neuf')"  />
+>>>>>>> master
+            </td>
+            <td class="calc_td_btn">
+                <input type="button" id="/" class="calc_btn" value="/" onclick="division()" />
+            </td>
+        </tr>
+        <tr>
+            <td class="calc_td_btn">
+                <input type="button" id="quatre" class="calc_btn" value="4" onclick="camelCase('quatre')" />
+            </td>
+            <td class="calc_td_btn">
+                <input type="button" id="cinq" class="calc_btn" value="5" onclick="camelCase('cinq')" />
+            </td>
+            <td class="calc_td_btn">
+                <input type="button" id="six" class="calc_btn" value="6" onclick="camelCase('six')" />
+            </td>
+            <td class="calc_td_btn">
+                <input type="button" id="*" class="calc_btn" value="*" onclick="multiplication()" />
+            </td>
+        </tr>
+        <tr>
+            <td class="calc_td_btn">
+                <input type="button" id="un" class="calc_btn" value="1" onclick="camelCase('un')" />
+            </td>
+            <td class="calc_td_btn">
+                <input type="button" id="deux" class="calc_btn" value="2" onclick="camelCase('deux')" />
+            </td>
+            <td class="calc_td_btn">
+                <input type="button" id="trois" class="calc_btn" value="3" onclick="camelCase('trois')" />
+            </td>
+            <td class="calc_td_btn">
+                <input type="button" id="-" class="calc_btn" value="-" onclick="soustraction()"/>
+            </td>
+        </tr>
+        <tr>
+            <td class="calc_td_btn">
+                <input type="button" id="zero" class="calc_btn" value="0" onclick="camelCase('zero')" />
+            </td>
+            <td class="calc_td_btn">
+                <input type="button" class="calc_btn" value="&larr;" onclick="supp()" />
+            </td>
+            <td class="calc_td_btn">
+<<<<<<< HEAD
+                <input type="button" class="calc_btn" value="CE" onclick="supprimer('')" />
+            </td>
+            <td class="calc_td_btn">
+                <input type="button" id="+" class="calc_btn" value="+" onclick="addition()"/>
+=======
+                <input type="button" class="calc_btn" value="CE" onclick="supprimer()" />
+            </td>
+            <td class="calc_td_btn">
+                <input type="button" class="calc_btn" value="+" onclick="addition()" />
+>>>>>>> master
+            </td>
+        </tr>
+        <tr>
+            <td class="calc_td_btn">
+                <input type="button" class="calc_btn" value="(" onclick= />
+            </td>
+            <td class="calc_td_btn">
+                <input type="button" class="calc_btn" value=")" onclick= />
+            </td>
+            <!-- J'ai créé un nom de classe spécialement pour le bouton "égal" afin de jouer sur sa largeur de fichier css -->
+            <td  class="calc_td_btn">
+                <input type="button" id="=" class="calc_btn_egal" value="=" onclick="resultat()" />
+            </td>
+        </tr>
+    </table>
+    <div id="historique"></div>
+    <script type="text/javascript" src="app2.js"></script>
+</body>
+
+</html>
